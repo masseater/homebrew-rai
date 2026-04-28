@@ -1,13 +1,13 @@
 class Rai < Formula
   desc "Extensible personal CLI"
   homepage "https://github.com/masseater/rai"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/masseater/rai/releases/download/v0.1.1/rai-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "18d4976ed9a1f185b98ce4fbf94fb12273879f5f9d9cc61477c0d5a8c7493535"
+      url "https://github.com/masseater/rai/releases/download/v0.1.2/rai-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "b516427bca3515f11f83a9c826832c7731215a6304a6115e225c5e32e5393cb0"
     else
       url "https://github.com/masseater/rai/releases/download/v0.1.0/rai-v0.1.0-x86_64-apple-darwin.tar.gz"
       sha256 "c01d0451cbe4af4e76a802675d1a49772cf9c27fb4dc8b27a4d116597c8c0f0d"
