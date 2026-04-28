@@ -1,25 +1,25 @@
 class Rai < Formula
   desc "rai — an extensible personal CLI."
   homepage "https://github.com/masseater/rai"
-  version "0.1.6"
+  version "0.1.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/masseater/rai/releases/download/v0.1.6/rai-aarch64-apple-darwin.tar.xz"
-      sha256 "7956e2ed37278233ae402efa9afa54fa87f743dd5f65e68df128c2559915a741"
+      url "https://github.com/masseater/rai/releases/download/v0.1.7/rai-aarch64-apple-darwin.tar.xz"
+      sha256 "a9191daf457bb6cb99b5afc8252d99f7ac7d7d9f529d26d181b853905074b8b1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/masseater/rai/releases/download/v0.1.6/rai-x86_64-apple-darwin.tar.xz"
-      sha256 "68e9d0058acd2fad73ae83424974691d32c53d6196e40c163003e8199b4b9f80"
+      url "https://github.com/masseater/rai/releases/download/v0.1.7/rai-x86_64-apple-darwin.tar.xz"
+      sha256 "dc40ea7c3951bdd9c367a2b5fede5db11c14b16851d377c607a68d6e72d285c5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/masseater/rai/releases/download/v0.1.6/rai-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4ca639c23ee995744f1cd36ea2dfe2b8b704832f79e25bd82cf1411df9c612f9"
+      url "https://github.com/masseater/rai/releases/download/v0.1.7/rai-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cabb0f74d8c762228709a7d73b350de9a3df19c18587b5b307c2045808946160"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/masseater/rai/releases/download/v0.1.6/rai-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2a0ee92dc530c2d5823762ef47c6e8ce8923fad3ad3ee19486109aa73fad431a"
+      url "https://github.com/masseater/rai/releases/download/v0.1.7/rai-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "239b3f51f6eedaa521004a49f6c99c4f99ebe207a3258291fe76014bac310acc"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
